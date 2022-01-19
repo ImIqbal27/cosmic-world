@@ -10,6 +10,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.highlight {
+    color: #FF008E;
+}
+
+.primary-button {
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg, #ec3f9ef5, #FF008E);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -28,7 +44,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     align-items: center;
 }
 
@@ -46,4 +62,41 @@ nav {
     color: white;
     font-weight: 600;
     padding: 15px 10px;
+}
+
+.banner {
+    height: calc (100vh - 70px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner-left h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.banner-left p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.banner-right {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-right img {
+    padding-top: 40px;
+    width: 100%;
 }
