@@ -168,3 +168,49 @@ nav {
     text-decoration: none;
     color: #ff008ca4;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ff008ca4;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-left img {
+    width: 90%;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid #FF008E;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
